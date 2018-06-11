@@ -68,8 +68,8 @@ p {
 /*NAVIGATION*/
 
 .navbar {
-    background-color: #fff !important;
-/*    background-color: #222222 !important;*/
+/*    background-color: #fff !important;*/
+    background-color: #222222 !important;
     text-transform: capitalize;
     font-family: 'Nunito', 'Spectral SC', 'PT Sans Narrow', Arial, sans-serif;
     font-weight: 500; 
@@ -96,8 +96,8 @@ p {
 }
 
 .navbar a {
-    color: #222222 !important;
-/*    color: #fff !important;*/
+/*    color: #222222 !important;*/
+    color: #fff !important;
     opacity: 0.7;
     height: 40%;
     width: 100%;
@@ -112,7 +112,7 @@ p {
 /*HEADER*/
 
 .header{
-    height: 750px;
+    height: 550px;
     width: 100%;
     padding: 80px 0 30px;
     margin-top: 80px;
@@ -135,14 +135,16 @@ p {
 /*    border: 15px solid #3399ff;*/
 }
 
+/*
 .header img {
     height: 100%;
     width: 100%;
     margin: 0px 0 0 40px;
+*/
 /*    border-radius: 100%;*/
-    border: 10px solid white;
+/*    border: 10px solid white;*/
 /*    border: 15px solid #3399ff;*/
-}
+/*}*/
 
 .header h1 {
     font-size: 36px;
@@ -170,8 +172,11 @@ p {
     position: absolute;
         top: 51px;
         left: 0;
-    min-width: 100%;
+    width: 100%;
     margin: 0 auto;
+    display: flex;
+  justify-content: center;
+    border: 10px solid white;
 }
 
 .header h2 {
@@ -214,6 +219,34 @@ p {
 }
 
 @media(max-width:768px) {
+    .header {
+        padding: 30px;
+        height: 750px;
+    }
+    
+    .header img{
+        width: 50%;
+        height: 150px;
+        margin: 20px 0 0 20px;
+    }
+    
+    .header .btn {
+        font-size: 10px;
+        margin-left: 20px;
+    }
+    
+    .header h1 {
+        font-size: 20px;
+        font-family: 'Spectral SC', serif;
+    }
+    
+    .header p {
+        font-size: 10px;
+        
+    }
+}
+/*Phones*/
+@media(max-width:600px) {
     .header {
         padding: 30px;
         height: 750px;
