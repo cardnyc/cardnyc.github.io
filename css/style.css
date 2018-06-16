@@ -453,7 +453,7 @@ p {
     width: 75%;
     margin: 10px 0 0 40px;
     background-color: whitesmoke;
-    padding: 20px 20px 20px 20px;
+    padding: 30px 20px 20px 20px;
 }
 
 /*Tablets*/
@@ -642,7 +642,7 @@ p {
 }
 
 .community h2 {
-    color: #5e5e5e;
+    color: black;
     font-family: 'Nunito','Spectral SC', serif;
 /*    text-transform:none;*/
 }
@@ -656,7 +656,7 @@ p {
 
 .community img{
     
-    width: 350px;
+    width: 250px;
 /*    opacity: 0.6;*/
     cursor: pointer;
     margin: 40px 0;
@@ -666,6 +666,8 @@ p {
 .community li:hover img {
     opacity: 1;
 }
+
+
 
 /*CONTACTS*/
 
