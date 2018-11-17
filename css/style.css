@@ -535,6 +535,26 @@ p {
 .events h5 {
     color: #222222;
     text-transform: none;
+/*    text-align: left;*/
+    font-size: 20px;
+    font-family: 'Nunito','Dancing Script';
+/*    font-family: 'Spectral SC', serif;*/
+/*    font-family: 'Lora', serif;*/
+    }
+
+.events h6 {
+    color: #222222;
+    text-transform: none;
+/*    text-align: left;*/
+    font-size: 16px;
+/*    font-family: 'Nunito','Dancing Script';*/
+    font-family: 'Spectral SC', serif;
+/*    font-family: 'Lora', serif;*/
+    }
+
+.events h4 {
+    color: #222222;
+    text-transform: none;
     font-size: 20px;
     font-family: 'Nunito','Dancing Script';
 /*    font-family: 'Spectral SC', serif;*/
@@ -546,11 +566,28 @@ p {
     padding-bottom: 40px;
     
 }
+.events ul {
+    text-align: left;
+    color: black;
+/*    padding-bottom: 40px;*/
+    
+}
+
+.events ol {
+        color: black;
+/*    text-align: left;    */
+}
 
 .events .item img {
-    width:75%;
-    height: 75%
+    width: 25%;
+    height: 25%
     margin:auto;
+    
+}.events img {
+    width: 20%;
+    height: 20%
+    margin:auto;
+    align-self: center;
 }
 
 
@@ -635,7 +672,7 @@ p {
 /*COMMUNITY*/
 
 .community {
-    padding: 70px 0 100px;
+    padding: 0px 0 100px;
     background-color: #3399ff;
     text-align: center;
     color: #fff;
@@ -644,7 +681,7 @@ p {
 .community h2 {
     color: black;
     font-family: 'Nunito','Spectral SC', serif;
-/*    text-transform:none;*/
+    text-transform:none;
 }
 
 .community p {
@@ -654,6 +691,12 @@ p {
     font-family: sans-serif;
 }
 
+.community ul {
+    text-align: left;
+    color: black;
+/*    padding-bottom: 40px;*/
+    
+}
 .community img{
     
     width: 250px;
@@ -674,7 +717,7 @@ p {
 .contact {
     padding: 50px 0 80px;
     text-align: center;
-        text-transform: none;
+    text-transform: none;
 }
 
 .contact p {
@@ -687,6 +730,12 @@ p {
     padding-bottom: 10px;
     text-transform: none;
 /*    font:14px Helvetica,Arial,sans-serif;*/
+}
+
+.contact img {
+       height: 60%;
+        width: 60%;
+        margin: 0px 0px 20px;
 }
 
 .contact h2 {
