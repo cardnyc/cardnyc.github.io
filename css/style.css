@@ -628,27 +628,25 @@ background-color: #3399ff;
 /*    font-family: 'Lora', serif;*/
     
 }
-/*
 
 .events p {
     padding-bottom: 40px;
     font-family: 'Nunito', sans-serif;
     
 }
-*/
 .events ul {
     text-align: left;
     color: black;
     font-family: 'Nunito', sans-serif;
 /*    padding-bottom: 40px;*/
-    font-size: 60px;
+    font-size: 20px;
     
 }
 
 .events ol {
         color: black;
 /*    text-align: left;    */
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .events .item img {
@@ -656,9 +654,11 @@ background-color: #3399ff;
     height: 25%
     margin:auto;
     
-}.events img {
-    width: 20%;
-    height: 20%
+}
+
+.events img {
+    width: 30%;
+    height: 30%
     margin:auto;
     align-self: center;
 }
