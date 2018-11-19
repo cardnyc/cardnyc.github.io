@@ -837,6 +837,7 @@ background-color: #3399ff;
     text-align: left;
     color: black;
     font-family: 'Nunito', sans-serif;
+    font-size: 20px;
 /*    padding-bottom: 40px;*/
     
 }
@@ -899,7 +900,7 @@ background-color: #3399ff;
     color: black;
     font-family: 'Nunito', sans-serif;
 /*    padding-bottom: 40px;*/
-    font-size: 100%;
+    font-size: 125%;
     }
  
     .community img{
