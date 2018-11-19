@@ -647,6 +647,13 @@ background-color: #3399ff;
         color: black;
 /*    text-align: left;    */
     font-size: 20px;
+    
+}.events li {
+        color: black;
+/*    text-align: left;    */
+    font-size: 20px;
+    list-style-type: disc; !important;
+    margin: 0 0 0 40px;
 }
 
 .events .item img {
