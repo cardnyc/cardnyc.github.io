@@ -118,7 +118,8 @@ p {
     width: 100%;
     padding: 80px 0 30px;
     margin-top: 80px;
-    background: #3399ff; /* blue*/
+    background: #fff; /* blue*/
+/*    background: #3399ff;  blue*/
 /*    background-image: url(../images/CaliRoad.jpg);*/
     background-position: center;
     background-repeat: no-repeat;
@@ -139,7 +140,9 @@ p {
     font-family: 'Nunito', 'Spectral SC', 'Georgia', sans-serif;
     text-transform: capitalize;
     font-size: 40px;
-    color: white;
+    color: #3399ff;
+/*    color: #3399ff;*/
+/*    color: white;*/
 }
 
 .header h3 {
@@ -151,10 +154,11 @@ p {
 .header p {
      margin-top: 20px;
     font-size: 18px;
-    text-align: justify;
+    text-align: left;
     font-family: 'Nunito', 'Spectral SC', 'Georgia', sans-serif;
     text-transform: none;
-    color: white;
+/*    color: #3399ff;*/
+    color: black;
 }
 
 .header carousel-caption{
@@ -197,8 +201,12 @@ p {
     margin-top: 10px;
     font-family:'Nunito', 'Georgia', sans-serif;
     text-transform: none;
+    background-color: #3399ff;
+    border-color: #3399ff;
+/*
     background-color: white;
     border-color: white;
+*/
     border-radius: 12px;
 }
 
@@ -222,7 +230,7 @@ p {
     }
     
     .header .btn {
-        font-size: 10px;
+        font-size: 20px;
         margin-left: 20px;
     }
     
@@ -234,8 +242,10 @@ p {
     .header h2 {
         font-family: 'Nunito', 'Spectral SC', 'Georgia', sans-serif;
         text-transform: capitalize;
-        font-size: 35px;
-        color: white;
+/*        font-size: 200%;*/
+/*        font-size: 35px;*/
+        color: #399fff;
+/*        color: white;*/
         text-align: center;
 }
     
@@ -246,7 +256,8 @@ p {
 }
     
     .header p {
-        font-size: 20px;
+        font-size: 150%;
+/*        font-size: 20px;*/
         margin: auto;
     }
     
@@ -282,7 +293,7 @@ p {
 /*Phones*/
 @media only screen and (max-width:737px) {
     .header {
-        padding: 30px;
+        padding: -0px;
         height: 750px;
     }
     
@@ -294,9 +305,10 @@ p {
     
     .header .btn {
         font-size: 15px;
-        margin-left: 20px;
+        margin-left: 90px;
     }
     
+/*
     .header button {
     margin-top: 10px;
     font-family:'Nunito', 'Georgia', sans-serif;
@@ -305,6 +317,7 @@ p {
     border-color: white;
     border-radius: 12px;
 }
+*/
     
     .header h1 {
         font-size: 20px;
@@ -312,14 +325,15 @@ p {
     }
     
     .header p {
-        font-size: 18px;
+        font-size: 100%;
+/*        font-size: 18px;*/
     }
     
     .header h2 {
     font-family: 'Nunito', 'Spectral SC', 'Georgia', sans-serif;
     text-transform: capitalize;
-    font-size: 30px;
-    color: white;
+/*    font-size: 30px;*/
+    color: #399fff;
 }
     
     .header h3 {
@@ -378,12 +392,13 @@ p {
 .services {
     padding: 100px 0 80px;
     text-align: center;
+background-color: #3399ff;
 }
 
 /*.services h2,*/
 .services h4 {
 /*    color: #4c4c4c;*/
-    color: cornflowerblue;
+    color: #fff;
     margin: -30px 0 20px;
     font-family: 'Dancing Script';
     text-transform: none;
@@ -392,7 +407,8 @@ p {
 }
 
 .services h2 {
-    color: #4c4c4c;
+/*    color: #4c4c4c;*/
+    color: black;
 /*    color: cornflowerblue;*/
     margin: -30px 0 20px;
 /*    font-family: 'Spectral SC', serif;*/
@@ -422,7 +438,7 @@ p {
     margin-top: 20px;
     font-size: 18px;
     font-family: 'Nunito','Spectral SC', serif;
-    color: #222222;
+    color: black;
     padding-bottom: 10px;
     text-transform: none;
     margin-left: 10px;
@@ -436,6 +452,11 @@ p {
     font-family: 'Nunito','Spectral SC', serif;
     margin: 0px 0 0 50px;
     font-size: 18px;
+    color: black;
+}
+
+.services ol{
+    color:black;
 }
 
 .services i {
@@ -452,9 +473,24 @@ p {
   height: 75%;
     width: 75%;
     margin: 10px 0 0 40px;
-    background-color: whitesmoke;
+/*    background-color: whitesmoke;*/
     padding: 30px 20px 20px 20px;
 }
+
+
+.services button {
+    margin-top: 10px;
+    font-family:'Nunito', 'Georgia', sans-serif;
+    text-transform: none;
+    background-color: white;
+    border-color: #3399ff;
+/*
+    background-color: #3399ff;
+    border-color: #3399ff; */
+/*  background-color: white;
+    border-color: white; */
+    border-radius: 12px;
+    }
 
 /*Tablets*/
 @media only screen and (max-width:769px) {
@@ -466,15 +502,16 @@ p {
   height: 85%;
     width: 85%;
     margin: auto;
-    background-color: whitesmoke;
-    padding: 20px 20px 20px 20px;
+/*    background-color: whitesmoke;*/
+    padding: 10px 10px 10px 10px;
     }
     
     .services p {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 150%;
+/*    font-size: 18px;*/
     font-family: 'Nunito','Spectral SC', serif;
-    color: #222222;
+    color: black;
     padding-bottom: 10px;
     text-transform: none;
     margin-top: 20px;
@@ -482,11 +519,13 @@ p {
 }
     
     .services li {
+        color:black;
     text-align: left;
     list-style-type: disc; !important;
     font-family: 'Nunito','Spectral SC', serif;
     margin: 0px 10 0 0px;
-    font-size: 18px;
+    font-size: 150%;
+/*    font-size: 18px;*/
     }
 }
 
@@ -501,16 +540,31 @@ p {
     height: 100%;
     width: 100%;
     margin: auto;
-    background-color: whitesmoke;
-    padding: 20px 20px 20px 20px;
+/*    background-color: whitesmoke;*/
+        padding: 10px 10px 10px 10px;
+/*    padding: 20px 20px 20px 20px;*/
     }
+    
+     .services p {
+    margin-top: 20px;
+    font-size: 100%;
+/*    font-size: 18px;*/
+    font-family: 'Nunito','Spectral SC', serif;
+    color: #222222;
+    padding-bottom: 10px;
+    text-transform: none;
+    margin-top: 20px;
+    text-align: justify;
+         color: black;
+}
     
     .services li {
     text-align: left;
     list-style-type: disc; !important;
     font-family: 'Nunito','Spectral SC', serif;
     margin: 0px 0 0 0px;
-    font-size: 18px;
+    font-size: 100%;
+/*    font-size: 18px;*/
     }
     
 }
@@ -520,14 +574,24 @@ p {
 .events {
     padding: 50px 0 80px;
     text-align: center;
-    background-color: #3399ff;
+    background-color: #fff;
+/*    background-color: #3399ff;*/
 }
 
-.events h2,
+.events h2{
+    color: #222222;
+    text-transform: none;
+    font-family: 'Nunito', sans-serif;
+/*    font-family: 'Nunito','Spectral SC', serif;*/
+    font-size: 40px;
+    text-align: center;
+}
+
 .events p {
     color: #222222;
     text-transform: none;
-    font-family: 'Nunito','Spectral SC', serif;
+    font-family: 'Nunito', sans-serif;
+/*    font-family: 'Nunito','Spectral SC', serif;*/
     font-size: 40px;
     text-align: center;
 }
@@ -537,7 +601,8 @@ p {
     text-transform: none;
 /*    text-align: left;*/
     font-size: 20px;
-    font-family: 'Nunito','Dancing Script';
+    font-family: 'Nunito', sans-serif;
+/*    font-family: 'Nunito','Dancing Script';*/
 /*    font-family: 'Spectral SC', serif;*/
 /*    font-family: 'Lora', serif;*/
     }
@@ -547,8 +612,9 @@ p {
     text-transform: none;
 /*    text-align: left;*/
     font-size: 16px;
+    font-family: 'Nunito', sans-serif;
 /*    font-family: 'Nunito','Dancing Script';*/
-    font-family: 'Spectral SC', serif;
+/*    font-family: 'Spectral SC', serif;*/
 /*    font-family: 'Lora', serif;*/
     }
 
@@ -556,26 +622,33 @@ p {
     color: #222222;
     text-transform: none;
     font-size: 20px;
-    font-family: 'Nunito','Dancing Script';
+    font-family: 'Nunito', sans-serif;
+/*    font-family: 'Nunito','Dancing Script';*/
 /*    font-family: 'Spectral SC', serif;*/
 /*    font-family: 'Lora', serif;*/
     
 }
+/*
 
 .events p {
     padding-bottom: 40px;
+    font-family: 'Nunito', sans-serif;
     
 }
+*/
 .events ul {
     text-align: left;
     color: black;
+    font-family: 'Nunito', sans-serif;
 /*    padding-bottom: 40px;*/
+    font-size: 60px;
     
 }
 
 .events ol {
         color: black;
 /*    text-align: left;    */
+    font-size: 40px;
 }
 
 .events .item img {
@@ -603,7 +676,33 @@ p {
         margin: auto;
     }
     
+        
+    .events img {
+        width: 40%;
+        height: 40%
+        margin:auto;
+        align-self: center;
+/*        padding-bottom: 40px;*/
+    }
+
+.events ul {
+    text-align: left;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+/*    padding-bottom: 40px;*/
+    font-size: 125%;
+    
 }
+
+.events ol {
+/*    text-align: left;*/
+    color: black;
+    font-family: 'Nunito', sans-serif;
+/*    padding-bottom: 40px;*/
+    font-size: 150%;
+    }
+}
+
 
 /*Phones*/
 @media only screen and (max-width:737px) {
@@ -616,6 +715,39 @@ p {
         width: 100%;
         margin: auto;
     }
+    
+        
+    .events img {
+        width: 40%;
+        height: 40%
+        margin:auto;
+        align-self: center;
+    }
+
+.events ul {
+    text-align: left;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+/*    padding-bottom: 40px;*/
+    font-size: 100%;
+    
+}
+
+.events ol {
+/*    text-align: left;*/
+    color: black;
+    font-family: 'Nunito', sans-serif;
+/*    padding-bottom: 40px;*/
+    font-size: 125%;
+    }
+
+.events h7{
+    font-size: 11px;
+    }
+
+.events h3{
+    font-size: 125%;
+}
 }
 
 /*TEAM*/
@@ -680,20 +812,24 @@ p {
 
 .community h2 {
     color: black;
-    font-family: 'Nunito','Spectral SC', serif;
+    font-family: 'Nunito', sans-serif;
+/*    font-family: 'Nunito','Spectral SC', serif;*/
     text-transform:none;
+    font-size: 40px;
 }
 
 .community p {
     padding-bottom: 40px;
     text-transform: none;
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
+/*    font-family: sans-serif;*/
 }
 
 .community ul {
     text-align: left;
     color: black;
+    font-family: 'Nunito', sans-serif;
 /*    padding-bottom: 40px;*/
     
 }
@@ -710,6 +846,63 @@ p {
     opacity: 1;
 }
 
+/*Tablets*/
+@media only screen and (max-width:769px) {
+    .community {
+        padding: 30px;
+    }
+.community ul {
+    text-align: left;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+/*    padding-bottom: 40px;*/
+    font-size: 150%;
+    }
+    
+    .community img{
+/*
+    width: 250px;
+    opacity: 0.6;
+    cursor: pointer;
+    margin: 40px 0;
+    transition: all 500ms ease-in-out;
+*/
+        height: 50%;
+        width: 50%;
+        margin: 0px 0px 20px; 
+    }
+}
+
+/*Phones*/
+@media only screen and (max-width:737px) {
+     .events {
+        padding: 30px;
+    }
+    
+    .community h2 {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+/*    font-family: 'Nunito','Spectral SC', serif;*/
+    text-transform:none;
+    font-size: 250%;
+    }
+    
+    .community ul {
+    text-align: left;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+/*    padding-bottom: 40px;*/
+    font-size: 100%;
+    }
+ 
+    .community img{
+        height: 100%;
+        width: 100%;
+        margin: 0px 0px 20px;
+    }
+    
+}
+
 
 
 /*CONTACTS*/
@@ -724,12 +917,14 @@ p {
     padding-bottom: 80px;
 /*    color: #737373;*/
 /*    text-transform: capitalize;*/
-    color: #737373;
+/*    color: #737373;*/
     color: black;
     font-size: 16px;
     padding-bottom: 10px;
     text-transform: none;
+    font-family: 'Nunito', sans-serif;
 /*    font:14px Helvetica,Arial,sans-serif;*/
+    margin-left: 40px;
 }
 
 .contact img {
@@ -739,9 +934,12 @@ p {
 }
 
 .contact h2 {
-    color: #4c4c4c;
+    color: black;
     margin: 20px 0 20px;
-    font-family: 'Nunito','Spectral SC', serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    text-transform: none;
+/*    font-family: 'Nunito','Spectral SC', serif;*/
 }
 
 .contact .input-group {
@@ -767,6 +965,50 @@ p {
 .contact .btn:hover {
     background-color: #a85959 !important;
     color: #fff !important;
+}
+
+/*Tablets*/
+@media only screen and (max-width:769px) {
+    .contact {
+        padding: 30px;
+    }
+    .contact p {
+    padding-bottom: 80px;
+/*    color: #737373;*/
+/*    text-transform: capitalize;*/
+/*    color: #737373;*/
+    color: black;
+    font-size: 150%;
+    padding-bottom: 10px;
+    text-transform: none;
+    font-family: 'Nunito', sans-serif;
+/*    font:14px Helvetica,Arial,sans-serif;*/
+    margin-left: 40px;
+    }
+
+}
+
+/*Phones*/
+@media only screen and (max-width:737px) {
+     .events {
+        padding: 30px;
+    }
+
+     .contact p {
+    padding-bottom: 80px;
+/*    color: #737373;*/
+/*    text-transform: capitalize;*/
+/*    color: #737373;*/
+    color: black;
+    font-size: 100%;
+    padding-bottom: 10px;
+    text-transform: none;
+    font-family: 'Nunito', sans-serif;
+/*    font:14px Helvetica,Arial,sans-serif;*/
+    margin-left: 40px;
+    }
+
+    
 }
 
 /*FOOTER*/
