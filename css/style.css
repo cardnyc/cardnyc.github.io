@@ -13,6 +13,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimzieLegibility !important;
     -webkit-font-smoothing: antialiased !important;
+    background: #F2F2F2;
 }
 
 li {
