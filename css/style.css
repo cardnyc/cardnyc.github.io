@@ -67,7 +67,7 @@ p {
 
 .navbar {
 /*    background-color: #fff !important;*/
-    background-color: #00B3B3 !important;
+    background-color: #F2F2F2 !important;
     text-transform: capitalize;
     font-family: 'Nunito', 'Spectral SC', 'PT Sans Narrow', Arial, sans-serif;
     font-weight: 500; 
@@ -112,7 +112,7 @@ p {
     margin-top: 80px;
     /* background: #fff; blue */
    background: #F2F2F2;
-/*    background-image: url(../images/CaliRoad.jpg);*/
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,42 +152,6 @@ p {
 /*    color: #3399ff;*/
     color: black;
 }
-
-.header carousel-caption{
-   z-index: 40; 
-}
-
-.header carousel-inner > .item  > img
-{
-    position: absolute;
-        top: 51px;
-        left: 0;
-    min-width: 100%;
-    margin: 0 auto;
-    display: flex;
-  justify-content: center;
-    border: 10px solid white;
-}
-    
-    .header carousel-inner > .item {
-    position: absolute;
-        top: 51px;
-        left: 0;
-    min-width: 100%;
-    margin: 0 auto;
-    display: flex;
-  justify-content: center;
-    border: 10px solid white;
-}
-    
-    .header, carousel-inner {
-  height:100%;
-  width:100%;
-  background-position:center center;
-}
-    .header, carousel slide{
-        min-width: 100%;
-    }
 
 .header button {
     margin-top: 10px;
@@ -251,34 +215,6 @@ p {
         font-size: 150%;
 /*        font-size: 20px;*/
         margin: auto;
-    }
-    
-    .carousel-column{
-        height: auto;
-        width: auto;
-        margin: 0 auto;
-        justify-content: center;
-    }
-    
-      .header carousel-inner > .item active > img {
-        position: absolute;
-        top: 51px;
-        left: 0;
-        min-width: 100%;
-        min-height:100%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        border: 10px solid white;
-    }
-    
-       .header, carousel-inner {
-          height:100%;
-          width:100%;
-          background-position:center center;
-}
-    .header, carousel slide{
-        min-width: 100%;
     }
 }
 
@@ -388,7 +324,7 @@ p {
 .footer {
     padding: 30px;
     color: #cccccc;
-    background-color: #222222;
+    background-color: #00B3B3;
      
 }
 
@@ -427,110 +363,3 @@ p {
     padding: 10px 5px 10px;
     margin: -3px 0 0 5px;
 }
-
-
-
-/*----ABOUT-----*/
-
-.about{
-    height: 750px;
-    width: 100%;
-    padding: 10px 0 30px;
-    margin-top: 50px;
-    background: #3399ff;
-/*    background-image: url(../images/CaliRoad.jpg);*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-}
-.about img-circle {
-    height: 100%;
-    width: 100%;
-    margin: 70px 0 0 40px;
-    border-radius: 100%;
-    border: 1px solid red;
-/*    border: 15px solid #3399ff;*/
-}
-
-.about img {
-    height: 100%;
-    width: 100%;
-    margin: 70px 0 0 40px;
-/*    border-radius: 100%;*/
-    border: 20px solid white;
-/*    border: 15px solid #3399ff;*/
-}
-
-.about h1 {
-    font-size: 36px;
-    text-align: center;
-    font-weight: 700;
-    padding-top: 125px;
-/*    font-family: 'Georgia', sans-serif;*/
-   font-family: 'Spectral SC', serif;
-    text-transform: none;
-}
-
-.about h3 {
-    font-family: 'Dancing Script';
-    font-size: 32px;
-}
-
-.about p {
-     margin-top: 20px;
-    font-size: 18px;
-    text-align: justify;
-    font-family: 'Georgia', sans-serif;
-    text-transform: none;
-}
-
-/*.about h1,*/
-/*.about p,*/
-.about button {
-    margin-top: 20px;
-    font-family: 'Georgia', sans-serif;
-    text-transform: none;
-    
-}
-
-.about .btn {
-    border-radius: 0;
-    margin: 25px 20px;
-}
-
-@media(max-width:768px) {
-    .about {
-        padding: 30px;
-        height: 750px;
-    }
-    
-    .about img{
-        width: 50%;
-        height: 150px;
-        margin: 20px 0 0 20px;
-    }
-    
-    .about .btn {
-        font-size: 10px;
-        margin-left: 20px;
-    }
-    
-    .about h1 {
-        font-size: 20px;
-        font-family: 'Spectral SC', serif;
-    }
-    
-    .about p {
-        font-size: 10px;
-        
-    }
-}
-/*--------------- End About--------------------- */
-
-
-
-
-
-
-
