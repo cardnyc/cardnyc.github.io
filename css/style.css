@@ -158,8 +158,9 @@ p {
     margin-top: 10px;
     font-family:'Nunito', 'Georgia', sans-serif;
     text-transform: none;
-    background-color: #3399ff;
-    border-color: #3399ff;
+    background-color: #00B3B3;
+    border-color: #00B3B3;
+    align-items: center;
 /*
     background-color: white;
     border-color: white;
