@@ -118,8 +118,8 @@ p {
     width: 100%;
     padding: 80px 0 30px;
     margin-top: 80px;
-    background: #fff; /* blue*/
-/*    background: #3399ff;  blue*/
+    /* background: #fff; blue */
+   background: #00B3B3;
 /*    background-image: url(../images/CaliRoad.jpg);*/
     background-position: center;
     background-repeat: no-repeat;
