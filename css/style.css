@@ -100,7 +100,7 @@ p {
 
 .navbar a:hover {
     opacity: 1;
-    background-color: #F2F2F2 !important;
+    background-color: #00B3B3 !important;
     
 }
 
@@ -159,8 +159,8 @@ p {
     margin-top: 10px;
     font-family:'Nunito', 'Georgia', sans-serif;
     text-transform: none;
-    background-color: #00B3B3;
-    border-color: #00B3B3;
+    background-color: #F2F2F2;
+    border-color: white;
     align-items: center;
 /*
     background-color: white;
